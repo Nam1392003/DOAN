@@ -1,0 +1,68 @@
+.bg{
+    background-color: #F2F2F2;
+}
+
+.container{
+    width: 1250px;
+    background-color: aliceblue;
+}
+
+.menu .img{
+    height: 250px;
+    width: 100%;
+}
+
+.menu .btn{
+    background: none; 
+    border: none;
+    position: absolute;
+    top: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+.custom-nav {
+    background-color: #007bff; /* Màu nền */
+    height: 30px; 
+  }
+  
+  .nav-list {
+    list-style-type: none; /* Loại bỏ dấu đầu dòng của danh sách */
+    padding: 0; /* Loại bỏ khoảng trắng trong danh sách */
+    display: flex; /* Sử dụng flexbox để căn giữa các mục */
+    justify-content: space-between; /* Căn giữa và tạo khoảng cách giữa các mục */
+    align-items: center; /* Căn theo chiều dọc vào giữa thanh điều hướng */
+  }
+  
+  .nav-item {
+    flex: 1; /* Mục chiếm độ rộng bằng nhau */
+    text-align: center; /* Căn giữa nội dung của mục */
+  }
+  
+  .nav-item{
+    border-right: 2px solid #fff;
+    height: 30px;
+  }
+  
+  .nav-item a {
+    color: #fff; /* Màu chữ trắng */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định cho liên kết */
+    padding: 0 10px; /* Tạo khoảng cách giữa các cạnh của mục */
+  }
+  
+  .nav-item:hover {
+    background-color: #ff7f50; /* Màu cam khi hover */
+  }
+  
+
+.footer{
+    background-color: black;
+    height: 250px;
+    color: #9f9f9f;
+}
+
+.footer .container{
+  padding-left: 20px;
+  padding-top: 20px;
+}
