@@ -81,3 +81,14 @@
   padding-left: 50px;
   padding-top: 40px;
 }
+
+.noidung .button{
+  background: none; 
+  border: none;
+  text-decoration: underline;
+  font-weight: bold;
+  color: blue;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
